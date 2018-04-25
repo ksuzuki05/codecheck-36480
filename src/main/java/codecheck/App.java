@@ -11,6 +11,7 @@ public class App {
 	public static void main(String[] args) {
 		if (args.length != 2 || !NumberUtils.isDigits(args[1])) {
 			System.out.println("error! invalid arguments.");
+			System.err.println("error! invalid arguments.");
 			return;
 		}
 		
